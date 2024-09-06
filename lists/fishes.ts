@@ -1,4 +1,4 @@
-const fishes = [
+const fishes: string[] = [
 `Alligator Gar`,
 `Amberjack`,
 `Arapaima`,

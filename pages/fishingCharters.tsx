@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
-export default function Charters() {
+export default function FishingCharters() {
   const [searchQuery, setSearchQuery] = useState("");
   const [view, setView] = useState("list"); // 'list' or 'map'
 
@@ -23,7 +23,7 @@ export default function Charters() {
   return (
     <>
       <Head>
-        <title>Charters | Cast Legend</title>
+        <title>Fishing Charters | Cast Legend</title>
         <meta
           name="description"
           content="Your digital hub for all things fishing."

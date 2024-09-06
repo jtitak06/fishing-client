@@ -10,7 +10,7 @@ import { FaCartPlus } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import { FaFilter } from "react-icons/fa6";
 
-export default function Marketplace() {
+export default function FishingMarketplace() {
   const [view, setView] = useState('grid');
   const initialItems = [
     { name: "Item 1", url: "https://i.ebayimg.com/images/g/Gg0AAOSwW55k77ab/s-l400.jpg", price: 45 },
@@ -23,7 +23,7 @@ export default function Marketplace() {
     return (
       <>
         <Head>
-          <title>Buy Now | Cast Legend</title>
+          <title>Fishing Marketplace | Cast Legend</title>
           <meta
             name="description"
             content="Your digital hub for all things fishing."
@@ -157,7 +157,6 @@ export default function Marketplace() {
                       </div>
                     </CardContent>
                   </Card>
-                  
                   ))}
                 </div>
               )}

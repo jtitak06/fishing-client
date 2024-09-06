@@ -9,6 +9,7 @@ const nextConfig = {
         pathname: '/images/**',
       },
     ],
+    domains: ['i.postimg.cc']
   },
   async rewrites() {
     return [
@@ -27,6 +28,18 @@ const nextConfig = {
       {
         source: '/fishin-buddy',
         destination: '/fishinBuddy',
+      },
+      {
+        source: '/fishing-charters',
+        destination: '/fishingCharters',
+      },
+      {
+        source: '/fishing-charter-details',
+        destination: '/fishingCharterDetails',
+      },
+      {
+        source: '/fishing-marketplace',
+        destination: '/fishingMarketplace',
       },
       {
         source: '/privacy-policy',
